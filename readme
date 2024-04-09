@@ -1,0 +1,26 @@
+# PetFinder - Adopción de Mascotas
+
+PetFinder es una plataforma de adopción de mascotas diseñada para conectar a mascotas necesitadas de un hogar con personas que buscan un nuevo miembro para su familia. Nuestro objetivo es facilitar el proceso de adopción, haciendo que sea más fácil para todos encontrar su compañero ideal. Ya sea que estés buscando adoptar un gato, un perro, o cualquier otro animal de compañía, PetFinder te ayuda a encontrar el match perfecto.
+
+## Requisitos Previos
+
+Para ejecutar esta aplicación, asegúrate de tener Node.js instalado en tu máquina. Puedes descargarlo e instalarlo desde [nodejs.org](https://nodejs.org/).
+
+## Instalación
+
+Para instalar las dependencias necesarias, navega hasta el directorio del proyecto en tu terminal y ejecuta:
+
+npm install 
+
+
+## Para Desarrollo
+
+Utiliza el siguiente comando para iniciar la aplicación en modo desarrollo. Esto utilizará nodemon para reiniciar automáticamente el servidor cada vez que hagas cambios en el código.
+
+npm run dev
+
+## Para Producción
+Para iniciar la aplicación en producción, utiliza:
+
+npm start
+
