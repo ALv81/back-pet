@@ -19,6 +19,9 @@ const getAllPets = async (req,res) => {
 const createPet = async (req,res) => {
 
     try {
+
+        req.body.age = parseInt(req.body.age)
+
         const pet = await Pet.create(req.body)
 
         res.status(200).json({ status: 'sucess', pet })
